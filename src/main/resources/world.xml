@@ -9,8 +9,11 @@ and open the template in the editor.
 <world
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='../java/com/IsisCapitalist/IsisCapitalist/worldSchema.xsd'>
-    <name>Coruscant</name>
-    <logo><img src="coruscant.png"/></img></logo>
+    <name>Tatooine</name>
+    <logo>
+        <img src="tatooine.png"/>
+    </img>
+    </logo>
     <money>0</money>
     <score>0</score>
     <totalangels>0</totalangels>
@@ -21,42 +24,61 @@ and open the template in the editor.
         <product>
             <id>1</id>
             <name>Used Speeder</name>
-            <logo><img src="speeder.jpg"/></logo>
+            <logo>
+                <img src="speeder.jpg"/>
+            </logo>
             <cout>100</cout>
-            <croissance></croissance>
-            <revenu>10</revenu>
-            <vitesse></vitesse>
+            <croissance>1.07</croissance>
+            <revenu>1000</revenu>
+            <vitesse>5000</vitesse>
             <quantite>1</quantite>
-            <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
-            <palliers></palliers>
+            <timeleft>1000</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <managers>
+                    <name>Jabba The Hutt</name>
+                    <logo>
+                        <img src="jabba.png"/>
+                    </logo>
+                    <seuil>10000</seuil>
+                    <idcible>1</idcible>
+                    <ratio>20</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </managers>
+            </palliers>
         </product>
         <product>
             <id>2</id>
-            <name></name>
-            <logo></logo>
-            <cout></cout>
-            <croissance></croissance>
-            <revenu></revenu>
-            <vitesse></vitesse>
-            <quantite></quantite>
-            <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
+            <name>Podracer</name>
+            <logo>
+                <img src="podracer.png"/>
+            </logo>
+            <cout>500</cout>
+            <croissance>1.15</croissance>
+            <revenu>3000</revenu>
+            <vitesse>20000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>5000</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
             </palliers>
         </product>
         <product>
-            <id></id>
-            <name></name>
-            <logo></logo>
-            <cout></cout>
-            <croissance></croissance>
-            <revenu></revenu>
-            <vitesse></vitesse>
-            <quantite></quantite>
-            <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
+            <id>3</id>
+            <name>X-Wing</name>
+            <logo>
+                <img src="x-wing.jpg"/>
+            </logo>
+            <cout>10000</cout>
+            <croissance>1.4</croissance>
+            <revenu>50000</revenu>
+            <vitesse>60000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>60000</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
+                
             </palliers>
         </product>
     </products>
@@ -94,6 +116,15 @@ and open the template in the editor.
     <angelupgrades>
     </angelupgrades>
     <managers>
+        <name>Jabba The Hutt</name>
+        <logo>
+            <img src="jabba.png"/>
+        </logo>
+        <seuil>10000</seuil>
+        <idcible>1</idcible>
+        <ratio>20</ratio>
+        <typeratio>vitesse</typeratio>
+        <unlocked>false</unlocked>
     </managers>
 
 </world>
