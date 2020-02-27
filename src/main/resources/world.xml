@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<world
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='../java/com/IsisCapitalist/IsisCapitalist/worldSchema.xsd'>
+    <name>Coruscant</name>
+    <logo><img src="coruscant.png"/></img></logo>
+    <money>0</money>
+    <score>0</score>
+    <totalangels>0</totalangels>
+    <activeangels>0</activeangels>
+    <angelbonus>0</angelbonus>
+    <lastupdate></lastupdate>
+    <products>
+        <product>
+            <id>1</id>
+            <name>Used Speeder</name>
+            <logo><img src="speeder.jpg"/></logo>
+            <cout>100</cout>
+            <croissance></croissance>
+            <revenu>10</revenu>
+            <vitesse></vitesse>
+            <quantite>1</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked></managerUnlocked>
+            <palliers></palliers>
+        </product>
+        <product>
+            <id>2</id>
+            <name></name>
+            <logo></logo>
+            <cout></cout>
+            <croissance></croissance>
+            <revenu></revenu>
+            <vitesse></vitesse>
+            <quantite></quantite>
+            <timeleft></timeleft>
+            <managerUnlocked></managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+        <product>
+            <id></id>
+            <name></name>
+            <logo></logo>
+            <cout></cout>
+            <croissance></croissance>
+            <revenu></revenu>
+            <vitesse></vitesse>
+            <quantite></quantite>
+            <timeleft></timeleft>
+            <managerUnlocked></managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+    </products>
+    <allunlocks>
+        <pallier>
+            <name></name>
+            <logo></logo>
+            <seuil></seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
+        <pallier>
+            <name></name>
+            <logo></logo>
+            <seuil></seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
+        <pallier>
+            <name></name>
+            <logo></logo>
+            <seuil></seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
+    </allunlocks>
+    <upgrades>
+    </upgrades>
+    <angelupgrades>
+    </angelupgrades>
+    <managers>
+    </managers>
+
+</world>
