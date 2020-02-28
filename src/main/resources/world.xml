@@ -114,17 +114,52 @@ and open the template in the editor.
     <upgrades>
     </upgrades>
     <angelupgrades>
+        <pallier>
+            <name></name>
+            <logo>
+                <img src=""/>
+            </logo>
+            <seuil></seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
     </angelupgrades>
     <managers>
-        <name>Jabba The Hutt</name>
-        <logo>
-            <img src="jabba.png"/>
-        </logo>
-        <seuil>10000</seuil>
-        <idcible>1</idcible>
-        <ratio>20</ratio>
-        <typeratio>vitesse</typeratio>
-        <unlocked>false</unlocked>
+        <pallier>
+            <name>Jabba The Hutt</name>
+            <logo>
+                <img src="jabba.png"/>
+            </logo>
+            <seuil>10000</seuil>
+            <idcible>1</idcible>
+            <ratio>20</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>Watto</name>
+            <logo>
+                <img src="watto.jpg"/>
+            </logo>
+            <seuil>50000</seuil>
+            <idcible>2</idcible>
+            <ratio>40</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>Yoda</name>
+            <logo>
+                <img src=""/>
+            </logo>
+            <seuil>100000</seuil>
+            <idcible>3</idcible>
+            <ratio>80</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
     </managers>
 
 </world>
