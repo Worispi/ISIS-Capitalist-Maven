@@ -6,160 +6,299 @@ and open the template in the editor.
 -->
 
 
-<world
-    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
-    xsi:noNamespaceSchemaLocation='../java/com/IsisCapitalist/IsisCapitalist/worldSchema.xsd'>
+<world xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='../java/com/IsisCapitalist/IsisCapitalist/worldSchema.xsd'>
     <name>Tatooine</name>
     <logo>
         <img src="tatooine.png"/>
     </img>
-    </logo>
-    <money>0</money>
-    <score>0</score>
-    <totalangels>0</totalangels>
-    <activeangels>0</activeangels>
-    <angelbonus>0</angelbonus>
-    <lastupdate></lastupdate>
-    <products>
-        <product>
-            <id>1</id>
-            <name>Used Speeder</name>
-            <logo>
-                <img src="speeder.jpg"/>
-            </logo>
-            <cout>100</cout>
-            <croissance>1.07</croissance>
-            <revenu>1000</revenu>
-            <vitesse>5000</vitesse>
-            <quantite>1</quantite>
-            <timeleft>1000</timeleft>
-            <managerUnlocked>false</managerUnlocked>
-            <palliers>
-                <managers>
-                    <name>Jabba The Hutt</name>
-                    <logo>
-                        <img src="jabba.png"/>
-                    </logo>
-                    <seuil>10000</seuil>
-                    <idcible>1</idcible>
-                    <ratio>20</ratio>
-                    <typeratio>vitesse</typeratio>
-                    <unlocked>false</unlocked>
-                </managers>
-            </palliers>
-        </product>
-        <product>
-            <id>2</id>
-            <name>Podracer</name>
-            <logo>
-                <img src="podracer.png"/>
-            </logo>
-            <cout>500</cout>
-            <croissance>1.15</croissance>
-            <revenu>3000</revenu>
-            <vitesse>20000</vitesse>
-            <quantite>0</quantite>
-            <timeleft>5000</timeleft>
-            <managerUnlocked>false</managerUnlocked>
-            <palliers>
-            </palliers>
-        </product>
-        <product>
-            <id>3</id>
-            <name>X-Wing</name>
-            <logo>
-                <img src="x-wing.jpg"/>
-            </logo>
-            <cout>10000</cout>
-            <croissance>1.4</croissance>
-            <revenu>50000</revenu>
-            <vitesse>60000</vitesse>
-            <quantite>0</quantite>
-            <timeleft>60000</timeleft>
-            <managerUnlocked>false</managerUnlocked>
-            <palliers>
-                
-            </palliers>
-        </product>
-    </products>
-    <allunlocks>
-        <pallier>
-            <name></name>
-            <logo></logo>
-            <seuil></seuil>
-            <idcible></idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
-        </pallier>
-        <pallier>
-            <name></name>
-            <logo></logo>
-            <seuil></seuil>
-            <idcible></idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
-        </pallier>
-        <pallier>
-            <name></name>
-            <logo></logo>
-            <seuil></seuil>
-            <idcible></idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
-        </pallier>
-    </allunlocks>
-    <upgrades>
-    </upgrades>
-    <angelupgrades>
-        <pallier>
-            <name></name>
-            <logo>
-                <img src=""/>
-            </logo>
-            <seuil></seuil>
-            <idcible></idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
-        </pallier>
-    </angelupgrades>
-    <managers>
-        <pallier>
-            <name>Jabba The Hutt</name>
-            <logo>
-                <img src="jabba.png"/>
-            </logo>
-            <seuil>10000</seuil>
-            <idcible>1</idcible>
-            <ratio>20</ratio>
-            <typeratio>vitesse</typeratio>
+</logo>
+<money>0</money>
+<score>0</score>
+<totalangels>0</totalangels>
+<activeangels>0</activeangels>
+<angelbonus>1,02</angelbonus>
+<lastupdate></lastupdate>
+<products>
+    <product>
+        <id>1</id>
+        <name>Used Speeder</name>
+        <logo>
+            <img src="speeder.jpg"/>
+        </logo>
+        <cout>4</cout>
+        <croissance>1.07</croissance>
+        <revenu>1</revenu>
+        <vitesse>500</vitesse>
+        <quantite>1</quantite>
+        <timeleft>500</timeleft>
+        <managerUnlocked>false</managerUnlocked>
+        <palliers>
+            <pallier>
+                <name>Pallier 1</name>
+                <logo>
+                    <img src="speeder.jpg"/>
+                </logo>
+                <seuil>10</seuil>
+                <idcible>1</idcible>
+                <ratio>1,03</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+                        <pallier>
+                <name>Pallier 2</name>
+                <logo>
+                    <img src="speeder.jpg"/>
+                </logo>
+                <seuil>100</seuil>
+                <idcible>1</idcible>
+                <ratio>1,10</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 3</name>
+                <logo>
+                    <img src="speeder.jpg"/>
+                </logo>
+                <seuil>1000</seuil>
+                <idcible>1</idcible>
+                <ratio>1,2</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </palliers>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Podracer</name>
+        <logo>
+            <img src="podracer.png"/>
+        </logo>
+        <cout>60</cout>
+        <croissance>1.15</croissance>
+        <revenu>60</revenu>
+        <vitesse>3000</vitesse>
+        <quantite>0</quantite>
+        <timeleft>3000</timeleft>
+        <managerUnlocked>false</managerUnlocked>
+        <palliers>
+            <pallier>
+                <name>Pallier 1</name>
+                <logo>
+                    <img src="podracer.png"/>
+                </logo>
+                <seuil>10</seuil>
+                <idcible>2</idcible>
+                <ratio>1,03</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 2</name>
+                <logo>
+                    <img src="podracer.png"/>
+                </logo>
+                <seuil>100</seuil>
+                <idcible>2</idcible>
+                <ratio>1,10</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 3</name>
+                <logo>
+                    <img src="podracer.png"/>
+                </logo>
+                <seuil>1000</seuil>
+                <idcible>2</idcible>
+                <ratio>1,2</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </palliers>
+    </product>
+    <product>
+        <id>3</id>
+        <name>X-Wing</name>
+        <logo>
+            <img src="x-wing.jpg"/>
+        </logo>
+        <cout>8640</cout>
+        <croissance>1.4</croissance>
+        <revenu>4320</revenu>
+        <vitesse>12000</vitesse>
+        <quantite>0</quantite>
+        <timeleft>12000</timeleft>
+        <managerUnlocked>false</managerUnlocked>
+        <palliers>
+            <pallier>
+                <name>Pallier 1</name>
+                <logo>
+                    <img src="x-wing.jpg"/>
+                </logo>
+                <seuil>10</seuil>
+                <idcible>3</idcible>
+                <ratio>1,03</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 2</name>
+                <logo>
+                    <img src="x-wing.jpg"/>
+                </logo>
+                <seuil>100</seuil>
+                <idcible>3</idcible>
+                <ratio>1,10</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 3</name>
+                <logo>
+                    <img src="x-wing.jpg"/>
+                </logo>
+                <seuil>1000</seuil>
+                <idcible>3</idcible>
+                <ratio>1,2</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </palliers>
+    </product>
+</products>
+<allunlocks>
+    <pallier>
+        <name></name>
+        <logo></logo>
+        <seuil></seuil>
+        <idcible></idcible>
+        <ratio></ratio>
+        <typeratio></typeratio>
+        <unlocked></unlocked>
+    </pallier>
+    <pallier>
+        <name></name>
+        <logo></logo>
+        <seuil></seuil>
+        <idcible></idcible>
+        <ratio></ratio>
+        <typeratio></typeratio>
+        <unlocked></unlocked>
+    </pallier>
+    <pallier>
+        <name></name>
+        <logo></logo>
+        <seuil></seuil>
+        <idcible></idcible>
+        <ratio></ratio>
+        <typeratio></typeratio>
+        <unlocked></unlocked>
+    </pallier>
+</allunlocks>
+<cashupgrades>
+    <pallier>
+        <name>Hyperspace Speed</name>
+        <logo>
+            <img src="hyperspace.jpg"/>
+        </logo>
+        <seuil>1000</seuil>
+        <idcible>0</idcible>
+        <ratio>1.5</ratio>
+        <typeratio>VITESSE</typeratio>
+        <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+        <name>Trade Federation Upgrade</name>
+        <logo>
+            <img src="tradefederation.jpg"/>
+        </logo>
+        <seuil>10000</seuil>
+        <idcible>0</idcible>
+        <ratio>1.3</ratio>
+            <typeratio>GAIN</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name>Watto</name>
+            <name>Kyber Crystal</name>
             <logo>
-                <img src="watto.jpg"/>
-            </logo>
-            <seuil>50000</seuil>
-            <idcible>2</idcible>
-            <ratio>40</ratio>
-            <typeratio>vitesse</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-            <name>Yoda</name>
-            <logo>
-                <img src=""/>
+                <img src="kybercrystal.png"/>
             </logo>
             <seuil>100000</seuil>
-            <idcible>3</idcible>
-            <ratio>80</ratio>
-            <typeratio>vitesse</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-    </managers>
+            <idcible>0</idcible>
+            <ratio>1.7</ratio>
+                <typeratio>VITESSE</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </cashupgrades>
+        <angelupgrades>
+            <pallier>
+                <name>A New Ewok</name>
+                <logo>
+                    <img src="ewok.jpg"/>
+                </logo>
+                <seuil>1000</seuil>
+                <idcible>0</idcible>
+                <ratio>1,5</ratio>
+                <typeratio>ANGE</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>The Ewoks Strike Back</name>
+                <logo>
+                    <img src="ewok.jpg"/>
+                </logo>
+                <seuil>100000</seuil>
+                <idcible>0</idcible>
+                <ratio>3</ratio>
+                <typeratio>ANGE</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>The Return Of The Ewoks</name>
+                <logo>
+                    <img src="ewok.jpg"/>
+                </logo>
+                <seuil>1000000</seuil>
+                <idcible>0</idcible>
+                <ratio>10</ratio>
+                <typeratio>ANGE</typeratio>
+                <unlocked>false</unlocked>
+        </angelupgrades>
+        <managers>
+            <pallier>
+                <name>Jabba The Hutt</name>
+                <logo>
+                    <img src="jabba.gif"/>
+                </logo>
+                <seuil>1000</seuil>
+                <idcible>1</idcible>
+                <ratio></ratio>
+                <typeratio></typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Watto</name>
+                <logo>
+                    <img src="watto.gif"/>
+                </logo>
+                <seuil>10000</seuil>
+                <idcible>2</idcible>
+                <ratio></ratio>
+                <typeratio></typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Yoda</name>
+                <logo>
+                    <img src="yoda.gif"/>
+                </logo>
+                <seuil>100000</seuil>
+                <idcible>3</idcible>
+                <ratio></ratio>
+                <typeratio></typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </managers>
 
-</world>
+    </world>
