@@ -1,12 +1,12 @@
 //
-// Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.8-b130911.1802 
+// Ce fichier a ï¿½tï¿½ gï¿½nï¿½rï¿½ par l'implï¿½mentation de rï¿½fï¿½rence JavaTM Architecture for XML Binding (JAXB), v2.2.8-b130911.1802 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2020.02.27 à 10:00:11 AM CET 
+// Toute modification apportï¿½e ï¿½ ce fichier sera perdue lors de la recompilation du schï¿½ma source. 
+// Gï¿½nï¿½rï¿½ le : 2020.02.27 ï¿½ 10:00:11 AM CET 
 //
 
 
-package generated;
+package com.IsisCapitalist.IsisCapitalist.generated;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour productType complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schï¿½ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="productType">
@@ -75,7 +75,7 @@ public class ProductType {
     protected PalliersType palliers;
 
     /**
-     * Obtient la valeur de la propriété id.
+     * Obtient la valeur de la propriï¿½tï¿½ id.
      * 
      */
     public int getId() {
@@ -83,7 +83,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété id.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ id.
      * 
      */
     public void setId(int value) {
@@ -91,7 +91,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété name.
+     * Obtient la valeur de la propriï¿½tï¿½ name.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété name.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ name.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété logo.
+     * Obtient la valeur de la propriï¿½tï¿½ logo.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété logo.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ logo.
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété cout.
+     * Obtient la valeur de la propriï¿½tï¿½ cout.
      * 
      */
     public double getCout() {
@@ -147,7 +147,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété cout.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ cout.
      * 
      */
     public void setCout(double value) {
@@ -155,7 +155,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété croissance.
+     * Obtient la valeur de la propriï¿½tï¿½ croissance.
      * 
      */
     public double getCroissance() {
@@ -163,7 +163,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété croissance.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ croissance.
      * 
      */
     public void setCroissance(double value) {
@@ -171,7 +171,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété revenu.
+     * Obtient la valeur de la propriï¿½tï¿½ revenu.
      * 
      */
     public double getRevenu() {
@@ -179,7 +179,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété revenu.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ revenu.
      * 
      */
     public void setRevenu(double value) {
@@ -187,7 +187,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété vitesse.
+     * Obtient la valeur de la propriï¿½tï¿½ vitesse.
      * 
      */
     public int getVitesse() {
@@ -195,7 +195,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété vitesse.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ vitesse.
      * 
      */
     public void setVitesse(int value) {
@@ -203,7 +203,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété quantite.
+     * Obtient la valeur de la propriï¿½tï¿½ quantite.
      * 
      */
     public int getQuantite() {
@@ -211,7 +211,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété quantite.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ quantite.
      * 
      */
     public void setQuantite(int value) {
@@ -219,7 +219,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété timeleft.
+     * Obtient la valeur de la propriï¿½tï¿½ timeleft.
      * 
      */
     public long getTimeleft() {
@@ -227,7 +227,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété timeleft.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ timeleft.
      * 
      */
     public void setTimeleft(long value) {
@@ -235,7 +235,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété managerUnlocked.
+     * Obtient la valeur de la propriï¿½tï¿½ managerUnlocked.
      * 
      */
     public boolean isManagerUnlocked() {
@@ -243,7 +243,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété managerUnlocked.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ managerUnlocked.
      * 
      */
     public void setManagerUnlocked(boolean value) {
@@ -251,7 +251,7 @@ public class ProductType {
     }
 
     /**
-     * Obtient la valeur de la propriété palliers.
+     * Obtient la valeur de la propriï¿½tï¿½ palliers.
      * 
      * @return
      *     possible object is
@@ -263,7 +263,7 @@ public class ProductType {
     }
 
     /**
-     * Définit la valeur de la propriété palliers.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ palliers.
      * 
      * @param value
      *     allowed object is
