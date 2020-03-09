@@ -5,7 +5,9 @@
  */
 package com.IsisCapitalist.IsisCapitalist.generated;
 
-import java.awt.Component;
+import javax.ws.rs.ApplicationPath;
+import org.glassfish.jersey.server.ResourceConfig;
+import org.springframework.stereotype.Component;
 
 /**
  *
