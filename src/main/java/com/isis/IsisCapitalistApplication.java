@@ -1,4 +1,4 @@
-package com.IsisCapitalist.IsisCapitalist;
+package com.isis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

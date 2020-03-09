@@ -8,16 +8,16 @@
         <version>2.2.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.IsisCapitalist</groupId>
-    <artifactId>IsisCapitalist</artifactId>
+    <groupId>com.isis.adventureISIServer</groupId>
+    <artifactId>adventureISIServer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>IsisCapitalist</name>
+    <name>adventureISIServer</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
+        
     <pluginRepositories>
         <pluginRepository>
             <id>central</id>
@@ -32,7 +32,7 @@
             </releases>
         </pluginRepository>
     </pluginRepositories>
-    
+
     <repositories>
         <repository>
             <id>central</id>
@@ -44,20 +44,62 @@
             </snapshots>
         </repository>
     </repositories>
-
-        
+    
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jersey</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-xjc -->
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-xjc</artifactId>
+            <version>2.4.0-b180830.0438</version>
+        </dependency>
+        
+        
+        <!-- https://mvnrepository.com/artifact/javax.xml/jaxb-api -->
+        <dependency>
+            <groupId>javax.xml</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.1</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web-services</artifactId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-core</artifactId>
+            <version>1.3</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

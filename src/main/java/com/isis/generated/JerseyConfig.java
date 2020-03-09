@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.IsisCapitalist.IsisCapitalist.generated;
+package com.isis.generated;
 
 import javax.ws.rs.ApplicationPath;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
  * @author remis
  */
 @Component
-@ApplicationPath("/IsisCapitalist")
+@ApplicationPath("/isis")
 public class JerseyConfig extends ResourceConfig {
     
     public JerseyConfig(){
