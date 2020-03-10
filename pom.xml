@@ -8,10 +8,10 @@
         <version>2.2.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.isis.adventureISIServer</groupId>
-    <artifactId>adventureISIServer</artifactId>
+    <groupId>com.isis</groupId>
+    <artifactId>IsisCapitalist</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>adventureISIServer</name>
+    <name>IsisCapitalist</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -109,6 +109,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
         </plugins>
     </build>
 

@@ -34,12 +34,10 @@ public class Services {
         return world;
         }
     
-    public void saveWordlToXml(World world) throws JAXBException {
-        try {
+    public void saveWordlToXml(World world) throws JAXBException, FileNotFoundException {
+
             OutputStream output = new FileOutputStream("world.xml");
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(Services.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        
         
         JAXBContext cont= JAXBContext.newInstance(World.class);
         Marshaller m = cont.createMarshaller();
