@@ -19,7 +19,7 @@ and open the template in the editor.
     <product>
         <id>1</id>
         <name>Used Speeder</name>
-        <logo>speeder.jpg</logo>
+        <logo>speeder.png</logo>
         <cout>4</cout>
         <croissance>1.07</croissance>
         <revenu>1</revenu>
