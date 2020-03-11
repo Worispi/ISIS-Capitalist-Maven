@@ -65,7 +65,7 @@ and open the template in the editor.
         <croissance>1.15</croissance>
         <revenu>60</revenu>
         <vitesse>3000</vitesse>
-        <quantite>0</quantite>
+        <quantite>5</quantite>
         <timeleft>3000</timeleft>
         <managerUnlocked>false</managerUnlocked>
         <palliers>
@@ -106,7 +106,7 @@ and open the template in the editor.
         <croissance>1.4</croissance>
         <revenu>4320</revenu>
         <vitesse>12000</vitesse>
-        <quantite>0</quantite>
+        <quantite>1</quantite>
         <timeleft>12000</timeleft>
         <managerUnlocked>false</managerUnlocked>
         <palliers>
@@ -133,6 +133,129 @@ and open the template in the editor.
                 <logo>x-wing.jpg</logo>
                 <seuil>1000</seuil>
                 <idcible>3</idcible>
+                <ratio>1,2</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </palliers>
+    </product>
+	<product>
+        <id>4</id>
+        <name>Millenium Falcon</name>
+        <logo>falcon.png</logo>
+        <cout>15000</cout>
+        <croissance>1.5</croissance>
+        <revenu>15000</revenu>
+        <vitesse>12000</vitesse>
+        <quantite>9</quantite>
+        <timeleft>12000</timeleft>
+        <managerUnlocked>false</managerUnlocked>
+        <palliers>
+            <pallier>
+                <name>Pallier 1</name>
+                <logo>falcon.png</logo>
+                <seuil>10</seuil>
+                <idcible>4</idcible>
+                <ratio>1,03</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 2</name>
+                <logo>falcon.png</logo>
+                <seuil>100</seuil>
+                <idcible>4</idcible>
+                <ratio>1,10</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 3</name>
+                <logo>falcon.png</logo>
+                <seuil>1000</seuil>
+                <idcible>4</idcible>
+                <ratio>1,2</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </palliers>
+    </product>
+	<product>
+        <id>5</id>
+        <name>Star Destroyer</name>
+        <logo>destroyer.jpg</logo>
+        <cout>15000</cout>
+        <croissance>1.5</croissance>
+        <revenu>15000</revenu>
+        <vitesse>12000</vitesse>
+        <quantite>1</quantite>
+        <timeleft>12000</timeleft>
+        <managerUnlocked>false</managerUnlocked>
+        <palliers>
+            <pallier>
+                <name>Pallier 1</name>
+                <logo>destroyer.jpg</logo>
+                <seuil>10</seuil>
+                <idcible>5</idcible>
+                <ratio>1,03</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 2</name>
+                <logo>destroyer.jpg</logo>
+                <seuil>100</seuil>
+                <idcible>5</idcible>
+                <ratio>1,10</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 3</name>
+                <logo>destroyer.jpg</logo>
+                <seuil>1000</seuil>
+                <idcible>5</idcible>
+                <ratio>1,2</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </palliers>
+    </product>
+	<product>
+        <id>6</id>
+        <name>Death Star</name>
+        <logo>deathstar.jpg</logo>
+        <cout>15000</cout>
+        <croissance>1.5</croissance>
+        <revenu>15000</revenu>
+        <vitesse>12000</vitesse>
+        <quantite>1</quantite>
+        <timeleft>12000</timeleft>
+        <managerUnlocked>false</managerUnlocked>
+        <palliers>
+            <pallier>
+                <name>Pallier 1</name>
+                <logo>deathstar.jpg</logo>
+                <seuil>10</seuil>
+                <idcible>6</idcible>
+                <ratio>1,03</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 2</name>
+                <logo>deathstar.jpg</logo>
+                <seuil>100</seuil>
+                <idcible>6</idcible>
+                <ratio>1,10</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Pallier 3</name>
+                <logo>deathstar.jpg</logo>
+                <seuil>1000</seuil>
+                <idcible>6</idcible>
                 <ratio>1,2</ratio>
                 <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
@@ -251,6 +374,33 @@ and open the template in the editor.
                 <logo>yoda.gif</logo>
                 <seuil>100000</seuil>
                 <idcible>3</idcible>
+                <ratio></ratio>
+                <typeratio></typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+			<pallier>
+                <name>Chewbacca</name>
+                <logo>chewbacca.gif</logo>
+                <seuil>1000000</seuil>
+                <idcible>4</idcible>
+                <ratio></ratio>
+                <typeratio></typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+			<pallier>
+                <name>Dark Vador</name>
+                <logo>vador.gif</logo>
+                <seuil>10000000</seuil>
+                <idcible>5</idcible>
+                <ratio></ratio>
+                <typeratio></typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+			<pallier>
+                <name>Emperor Palpatine</name>
+                <logo>palpatine.gif</logo>
+                <seuil>10000000</seuil>
+                <idcible>6</idcible>
                 <ratio></ratio>
                 <typeratio></typeratio>
                 <unlocked>false</unlocked>
