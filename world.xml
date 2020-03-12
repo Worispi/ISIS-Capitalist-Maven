@@ -65,7 +65,7 @@ and open the template in the editor.
         <croissance>1.15</croissance>
         <revenu>60</revenu>
         <vitesse>3000</vitesse>
-        <quantite>5</quantite>
+        <quantite>1</quantite>
         <timeleft>3000</timeleft>
         <managerUnlocked>false</managerUnlocked>
         <palliers>
@@ -101,7 +101,7 @@ and open the template in the editor.
     <product>
         <id>3</id>
         <name>X-Wing</name>
-        <logo>x-wing.jpg</logo>
+        <logo>x-wing.png</logo>
         <cout>8640</cout>
         <croissance>1.4</croissance>
         <revenu>4320</revenu>
@@ -112,7 +112,7 @@ and open the template in the editor.
         <palliers>
             <pallier>
                 <name>Pallier 1</name>
-                <logo>x-wing.jpg</logo>
+                <logo>x-wing.png</logo>
                 <seuil>10</seuil>
                 <idcible>3</idcible>
                 <ratio>1,03</ratio>
@@ -121,7 +121,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>Pallier 2</name>
-                <logo>x-wing.jpg</logo>
+                <logo>x-wing.png</logo>
                 <seuil>100</seuil>
                 <idcible>3</idcible>
                 <ratio>1,10</ratio>
@@ -130,7 +130,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>Pallier 3</name>
-                <logo>x-wing.jpg</logo>
+                <logo>x-wing.png</logo>
                 <seuil>1000</seuil>
                 <idcible>3</idcible>
                 <ratio>1,2</ratio>
@@ -147,7 +147,7 @@ and open the template in the editor.
         <croissance>1.5</croissance>
         <revenu>15000</revenu>
         <vitesse>12000</vitesse>
-        <quantite>9</quantite>
+        <quantite>1</quantite>
         <timeleft>12000</timeleft>
         <managerUnlocked>false</managerUnlocked>
         <palliers>
@@ -183,7 +183,7 @@ and open the template in the editor.
 	<product>
         <id>5</id>
         <name>Star Destroyer</name>
-        <logo>destroyer.jpg</logo>
+        <logo>destroyer.png</logo>
         <cout>15000</cout>
         <croissance>1.5</croissance>
         <revenu>15000</revenu>
@@ -194,7 +194,7 @@ and open the template in the editor.
         <palliers>
             <pallier>
                 <name>Pallier 1</name>
-                <logo>destroyer.jpg</logo>
+                <logo>destroyer.png</logo>
                 <seuil>10</seuil>
                 <idcible>5</idcible>
                 <ratio>1,03</ratio>
@@ -203,7 +203,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>Pallier 2</name>
-                <logo>destroyer.jpg</logo>
+                <logo>destroyer.png</logo>
                 <seuil>100</seuil>
                 <idcible>5</idcible>
                 <ratio>1,10</ratio>
@@ -212,7 +212,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>Pallier 3</name>
-                <logo>destroyer.jpg</logo>
+                <logo>destroyer.png</logo>
                 <seuil>1000</seuil>
                 <idcible>5</idcible>
                 <ratio>1,2</ratio>
@@ -224,7 +224,7 @@ and open the template in the editor.
 	<product>
         <id>6</id>
         <name>Death Star</name>
-        <logo>deathstar.jpg</logo>
+        <logo>deathstar.png</logo>
         <cout>15000</cout>
         <croissance>1.5</croissance>
         <revenu>15000</revenu>
@@ -235,7 +235,7 @@ and open the template in the editor.
         <palliers>
             <pallier>
                 <name>Pallier 1</name>
-                <logo>deathstar.jpg</logo>
+                <logo>deathstar.png</logo>
                 <seuil>10</seuil>
                 <idcible>6</idcible>
                 <ratio>1,03</ratio>
@@ -244,7 +244,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>Pallier 2</name>
-                <logo>deathstar.jpg</logo>
+                <logo>deathstar.png</logo>
                 <seuil>100</seuil>
                 <idcible>6</idcible>
                 <ratio>1,10</ratio>
@@ -253,7 +253,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>Pallier 3</name>
-                <logo>deathstar.jpg</logo>
+                <logo>deathstar.png</logo>
                 <seuil>1000</seuil>
                 <idcible>6</idcible>
                 <ratio>1,2</ratio>
