@@ -23,9 +23,9 @@ and open the template in the editor.
         <cout>4</cout>
         <croissance>1.07</croissance>
         <revenu>1</revenu>
-        <vitesse>500</vitesse>
+        <vitesse>1000</vitesse>
         <quantite>1</quantite>
-        <timeleft>500</timeleft>
+        <timeleft></timeleft>
         <managerUnlocked>false</managerUnlocked>
         <palliers>
             <pallier>
@@ -292,7 +292,7 @@ and open the template in the editor.
         <unlocked></unlocked>
     </pallier>
 </allunlocks>
-<cashupgrades>
+<upgrades>
     <pallier>
         <name>Hyperspace Speed</name>
         <logo>hyperspace.jpg</logo>
@@ -303,7 +303,7 @@ and open the template in the editor.
         <unlocked>false</unlocked>
     </pallier>
     <pallier>
-        <name>Trade Federation Upgrade</name>
+        <name>Trade Federation</name>
         <logo>tradefederation.jpg</logo>
         <seuil>10000</seuil>
         <idcible>0</idcible>
@@ -320,11 +320,11 @@ and open the template in the editor.
                 <typeratio>VITESSE</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
-        </cashupgrades>
+        </upgrades>
         <angelupgrades>
             <pallier>
                 <name>A New Ewok</name>
-                <logo>ewok.jpg</logo>
+                <logo>ewok.gif</logo>
                 <seuil>1000</seuil>
                 <idcible>0</idcible>
                 <ratio>1,5</ratio>
@@ -333,7 +333,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>The Ewoks Strike Back</name>
-                <logo>ewok.jpg</logo>
+                <logo>ewok2.gif</logo>
                 <seuil>100000</seuil>
                 <idcible>0</idcible>
                 <ratio>3</ratio>
@@ -342,7 +342,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>The Return Of The Ewoks</name>
-                <logo>ewok.jpg</logo>
+                <logo>ewok3.gif</logo>
                 <seuil>1000000</seuil>
                 <idcible>0</idcible>
                 <ratio>10</ratio>
