@@ -9,6 +9,7 @@ package com.isis.generated;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.logging.Level;
@@ -25,7 +26,8 @@ import javax.xml.bind.Unmarshaller;
 public class Services {
     
     public World readWorldFromXml() throws JAXBException {
-        InputStream input=getClass().getClassLoader().getResourceAsStream("world.xml");
+        
+        InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
         
         JAXBContext cont= JAXBContext.newInstance(World.class);
         Unmarshaller u= cont.createUnmarshaller();
@@ -34,13 +36,13 @@ public class Services {
         return world;
         }
     
-    public void saveWordlToXml(World world) throws JAXBException, FileNotFoundException {
+    public void saveWordlToXml(World world, String username) throws JAXBException, FileNotFoundException, IOException {
 
-            OutputStream output = new FileOutputStream("world.xml");
-        
+        OutputStream output = new FileOutputStream(username+"-"+"world.xml");
         
         JAXBContext cont= JAXBContext.newInstance(World.class);
         Marshaller m = cont.createMarshaller();
-        m.marshal(world, new File("world.xml"));
+        m.marshal(world,output);
+        output.close();
     }
 }

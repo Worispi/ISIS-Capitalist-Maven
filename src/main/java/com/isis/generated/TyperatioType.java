@@ -33,12 +33,12 @@ import javax.xml.bind.annotation.XmlType;
 @XmlEnum
 public enum TyperatioType {
 
-    @XmlEnumValue("vitesse")
-    VITESSE("vitesse"),
-    @XmlEnumValue("gain")
-    GAIN("gain"),
-    @XmlEnumValue("ange")
-    ANGE("ange");
+    @XmlEnumValue("VITESSE")
+    VITESSE("VITESSE"),
+    @XmlEnumValue("GAIN")
+    GAIN("GAIN"),
+    @XmlEnumValue("ANGE")
+    ANGE("ANGE");
     private final String value;
 
     TyperatioType(String v) {

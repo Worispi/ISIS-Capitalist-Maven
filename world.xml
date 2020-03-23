@@ -9,7 +9,7 @@ and open the template in the editor.
 <world xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='../java/com/IsisCapitalist/IsisCapitalist/worldSchema.xsd'>
     <name>Tatooine</name>
     <logo>tatooine.png</logo>
-<money>0</money>
+<money>100</money>
 <score>0</score>
 <totalangels>0</totalangels>
 <activeangels>0</activeangels>
@@ -33,11 +33,11 @@ and open the template in the editor.
                 <logo>speeder.jpg</logo>
                 <seuil>10</seuil>
                 <idcible>1</idcible>
-                <ratio>1.03</ratio>
+                <ratio>3</ratio>
                 <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
-                        <pallier>
+            <pallier>
                 <name>Pallier 2</name>
                 <logo>speeder.jpg</logo>
                 <seuil>50</seuil>
