@@ -25,16 +25,27 @@ import javax.xml.bind.Unmarshaller;
  */
 public class Services {
     
-    public World readWorldFromXml() throws JAXBException {
+    InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
         
-        InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
+    public World readWorldFromXml(String username) throws JAXBException {
         
-        JAXBContext cont= JAXBContext.newInstance(World.class);
-        Unmarshaller u= cont.createUnmarshaller();
-        World world= (World) u.unmarshal(new File("world.xml"));
+        try{
+            File file = new File(username+"-"+"world.xml");
+            JAXBContext cont= JAXBContext.newInstance(World.class);
+            Unmarshaller u = cont.createUnmarshaller();
+            World world= (World) u.unmarshal(file);
         
-        return world;
+            return world;
         }
+        catch (Exception e){
+            
+            JAXBContext cont= JAXBContext.newInstance(World.class);
+            Unmarshaller u= cont.createUnmarshaller();
+            World world= (World) u.unmarshal(input);
+        
+            return world;
+        } 
+    }
     
     public void saveWordlToXml(World world, String username) throws JAXBException, FileNotFoundException, IOException {
 

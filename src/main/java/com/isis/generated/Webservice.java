@@ -32,6 +32,6 @@ public class Webservice {
     public Response getXml(@Context HttpServletRequest request) throws JAXBException{
         String username;
         username = request.getHeader("X-user");
-        return Response.ok(services.readWorldFromXml()).build();
+        return Response.ok(services.readWorldFromXml(username)).build();
     }
 }
