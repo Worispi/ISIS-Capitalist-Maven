@@ -12,7 +12,6 @@ and open the template in the editor.
         <img src="tatooine.png"/>
     </img>
 </logo>
-<input type="text" [(ngModel)]="username" change)="onUsernameChanged()"/>
 <money>0</money>
 <score>0</score>
 <totalangels>0</totalangels>
