@@ -5,13 +5,17 @@
  */
 package com.isis.generated;
 
+import java.io.FileNotFoundException;
+
 /**
  *
  * @author remis
  */
 
 import javax.servlet.http.HttpServletRequest;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
+import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
@@ -35,4 +39,11 @@ public class Webservice {
         return Response.ok(services.readWorldFromXml(username)).build();
     }
 
+    @PUT
+    @Path("product")
+    @Consumes({MediaType.APPLICATION_JSON})
+    public Response editProduct(String data) throws JAXBException, FileNotFoundException{
+        ProductType product = 
+
+    }
 }
