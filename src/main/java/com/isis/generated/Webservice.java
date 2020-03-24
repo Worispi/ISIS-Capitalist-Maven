@@ -34,4 +34,5 @@ public class Webservice {
         username = request.getHeader("X-user");
         return Response.ok(services.readWorldFromXml(username)).build();
     }
+
 }
