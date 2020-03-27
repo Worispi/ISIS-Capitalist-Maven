@@ -96,6 +96,6 @@ public class Webservice {
         newWorld.setScore(scoreToKeep);
         newWorld.setTotalangels(totalangels + activeangels);
         newWorld.setActiveangels(activeangels);
-        services.saveWordlToXml(newWorld, username);
+        Services.saveWordlToXml(newWorld, username);
     }
 }

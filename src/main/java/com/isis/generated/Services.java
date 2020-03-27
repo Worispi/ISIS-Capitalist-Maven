@@ -27,7 +27,7 @@ import javax.xml.bind.Unmarshaller;
  * @author remis
  */
 public class Services {
-        
+        /** */
     public World readWorldFromXml(String username) throws JAXBException {
         
         InputStream input; 
@@ -51,7 +51,7 @@ public class Services {
         } 
     }
     
-    public void saveWordlToXml(World world, String username) throws JAXBException, FileNotFoundException, IOException {
+    public static void saveWordlToXml(World world, String username) throws JAXBException, FileNotFoundException, IOException {
 
         OutputStream output = new FileOutputStream(username+"-"+"world.xml");
         
@@ -85,7 +85,7 @@ public class Services {
         world.setLastupdate(System.currentTimeMillis());
         this.saveWordlToXml(world, username);
         return this.readWorldFromXml(username);
-    }
+    } 
     
     
     // prend en paramètre le pseudo du joueur et le produit 
